@@ -118,7 +118,8 @@ After added the new mechanism of arithmetic, change your configuration of `Gemmi
 ```
 cd ~/chipyard/generators/gemmini/configs/
 nano GemminiCustomConfigs.scala
-
+```
+```scala
 # GemminiCustomConfigs.scala
 ...
 object GemminiCustomConfigs{
@@ -204,8 +205,8 @@ cp $REPO/gemmini/tutorial/gemmini_params_int.h ~/chipyard/toolchains/esp-tools/r
 cd ../../toolchains/esp-tools/riscv-isa-sim/build
 ```
 Before makefile, there has somewhere you need to correct `riscv-isa-sim/gemmini/gemmini.cc`:
-```
-# ~/chipyard/toolchains/esp-tools/riscv-isa-sim/gemmini/gemmini.cc
+``` cpp
+/* # ~/chipyard/toolchains/esp-tools/riscv-isa-sim/gemmini/gemmini.cc */
 ...
 #if defined(HAS_MVIN_SCALE) || defined(HAS_MVIN_ACC_SCALE)
 scale_t_bits gemmini_t::acc_scale_t_to_acc_scale_t_bits(scale_t scale){
