@@ -120,7 +120,7 @@ cd ~/chipyard/generators/gemmini/configs/
 nano GemminiCustomConfigs.scala
 ```
 ```scala
-# GemminiCustomConfigs.scala
+/* # GemminiCustomConfigs.scala */
 ...
 object GemminiCustomConfigs{
     ...
