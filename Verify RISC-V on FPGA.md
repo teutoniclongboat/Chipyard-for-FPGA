@@ -50,6 +50,8 @@ https://github.com/KireinaHoro/rocket-zynqmp.git
 
 * fpga-images-zedboard
 
- NinoX-FPGA/meton-robean_fpga-images-zedboard
+  NinoX-FPGA/meton-robean_fpga-images-zedboard
  
- 
+* fpga-zynq
+
+  NinoX-FPGA/meton-robean_fpga-zynq
