@@ -35,4 +35,21 @@ https://github.com/KireinaHoro/rocket-zynqmp.git
   
  # RocketChip RoCC Accelerator template
  
+ ```
+ https://github.com/meton-robean/deca
+ ```
+ 
+ * deca-docker
+
+  NinoX-FPGA/meton-robean_deca-docker
+ 
+ 
+* FireMarshal
+  
+  NinoX-FPGA/meton-robean_FireMarshal
+
+* fpga-images-zedboard
+
+ NinoX-FPGA/meton-robean_fpga-images-zedboard
+ 
  
