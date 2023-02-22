@@ -33,7 +33,7 @@ https://github.com/KireinaHoro/rocket-zynqmp.git
 
   NinoX-FPGA/KireinaHoro_testchipip
   
- # RocketChip RoCC Accelerator template
+ # RocketChip RoCC Accelerator template on Zedboard
  
  
  ```
