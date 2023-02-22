@@ -43,7 +43,7 @@ https://github.com/KireinaHoro/rocket-zynqmp.git
  
  * deca-docker
 
-  NinoX-FPGA/meton-robean_deca-docker
+    NinoX-FPGA/meton-robean_deca-docker
  
 * FireMarshal
   
