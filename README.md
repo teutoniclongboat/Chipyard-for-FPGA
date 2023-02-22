@@ -32,6 +32,7 @@ https://github.com/KireinaHoro/rocket-zynqmp.git
    NinoX-FPGA/KireinaHoro_sifive-blocks
  
 * testchipip
+
   NinoX-FPGA/KireinaHoro_testchipip
 
 
