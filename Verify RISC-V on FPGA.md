@@ -1,5 +1,5 @@
 
-# Rocket with Gemmini on ZCU102
+# Rocket Chip with Gemmini on  ZynqMP(ZCU102)
 
 ```
 https://github.com/KireinaHoro/rocket-zynqmp.git
