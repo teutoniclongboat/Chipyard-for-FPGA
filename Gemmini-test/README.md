@@ -266,6 +266,10 @@ git clone https://github.com/<repository_name>.git
 ## Resources
 
 Chipyard Stable Documentation: https://chipyard.readthedocs.io/
+
 Chipyard (x FireSim) Tutorial: https://fires.im/tutorial
+
 Chipyard Basics slides: https://fires.im/isca22-slides-pdf/02_chipyard_basics.pdf
+
 Chipyard Tutorial Exercise slides: https://fires.im/isca22-slides-pdf/03_building_custom_socs.pdf
+
