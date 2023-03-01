@@ -59,7 +59,7 @@ cd ~/chipyard/generators/gemmini
 
 **Building software of compile programs**, including large DNN models like ResNet50, and small matrix-multiplication tests.
 ```
-cd chipyard/generators/gemmini/software/gemmini-rocc-tests
+cd ~/chipyard/generators/gemmini/software/gemmini-rocc-tests
 ./build.sh
 ```
 After these step, Take a look of some important directories that could be used.
