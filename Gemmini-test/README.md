@@ -44,7 +44,6 @@ cd toolchains/esp-tools/riscv-isa-sim/build
 git fetch && git checkout $SPIKE_HASH
 make && make install
 
-# Ignore `[error] Picked up JAVA_TOOL_OPTIONS: ...`
 ```
 If you are encounter the following issue, it means that **your machine does not have enough memory** to run this command, closed other applications would solve this problem (required 8GB RAM).
 
@@ -61,6 +60,8 @@ cd ~/chipyard/generators/gemmini
 ```
 cd ~/chipyard/generators/gemmini/software/gemmini-rocc-tests
 ./build.sh
+
+# Ignore `[error] Picked up JAVA_TOOL_OPTIONS: ...`
 ```
 After these step, Take a look of some important directories that could be used.
 ```
