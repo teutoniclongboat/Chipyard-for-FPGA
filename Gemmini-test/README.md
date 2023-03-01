@@ -8,6 +8,7 @@ Gemmini is a side project of chipyard, and it working mechanism is load the NN m
 
 ## Note
 * linux version
+* Conda must exits
 
 
 ## 1. Chipyard & esp-tools installation
