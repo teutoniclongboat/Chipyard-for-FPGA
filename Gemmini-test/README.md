@@ -16,6 +16,12 @@ First, clone the repository from `ucb-bar/chipyard`
 and build conda environment, then build esp-tools(This toolchain is for Hwacha and Gemmini to use).
 ```
 git clone https://github.com/ucb-bar/chipyard.git
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh
+source  ~/mambaforge/etc/profile.d
+conda activate base
+
+conda install -n base conda-lock
 cd chipyard
 git checkout 1.8.1
 ./build-setup.sh esp-tools
