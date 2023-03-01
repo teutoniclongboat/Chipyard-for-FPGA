@@ -28,6 +28,7 @@ conda activate base
 conda install -n base conda-lock
 git checkout 1.8.1
 ./build-setup.sh esp-tools
+# If you encounter "cofigurate: cannot run C compiled programs, check /.bashrc if your had changed compiler to other version."
 ```
 Toolchain is setup already, then get into conda environment and install `spike`, this tool is a RISC-V instruction accurate simulator, It also could be extended gemmini instructions(we don't need MIDAS simulation recently).
 ```
