@@ -15,6 +15,7 @@ Gemmini is a side project of chipyard, and it working mechanism is load the NN m
 ## 1. Chipyard & esp-tools installation
 First, clone the repository from `ucb-bar/chipyard`
 and build conda environment, then build esp-tools(This toolchain is for Hwacha and Gemmini to use).
+(If there have any problem with conda development, see (here)[https://chipyard.readthedocs.io/en/stable/Chipyard-Basics/Initial-Repo-Setup.html])
 ```
 git clone https://github.com/ucb-bar/chipyard.git
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
