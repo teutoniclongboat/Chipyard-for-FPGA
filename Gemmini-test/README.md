@@ -19,13 +19,13 @@ and build conda environment, then build esp-tools(This toolchain is for Hwacha a
 (If there have any problem with conda development, see [here](https://chipyard.readthedocs.io/en/stable/Chipyard-Basics/Initial-Repo-Setup.html))
 ```
 git clone https://github.com/ucb-bar/chipyard.git
+cd chipyard
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh
-source  ~/mambaforge/etc/profile.d
+source  ~/mambaforge/etc/profile.d/conda.sh
 conda activate base
 
 conda install -n base conda-lock
-cd chipyard
 git checkout 1.8.1
 ./build-setup.sh esp-tools
 ```
