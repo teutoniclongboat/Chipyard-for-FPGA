@@ -6,6 +6,10 @@ Gemmini is a side project of chipyard, and it working mechanism is load the NN m
 3. Project: Complex multiplication
 4. Project: Running onnx inference model
 
+## Note
+* linux version
+
+
 ## 1. Chipyard & esp-tools installation
 First, clone the repository from `ucb-bar/chipyard`
 and build esp-tools(This toolchain is for Hwacha and Gemmini to use).
