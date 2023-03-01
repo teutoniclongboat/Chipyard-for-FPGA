@@ -157,8 +157,10 @@ Build your change of the hardware, and copy the simulation programs into corresp
 ```
 cd ~/chipyard/generators/gemmini
 ./scripts/build-verilator.sh
-cp -f $REPO/software/gemmini-rocc-tests/bareMetalC/complex_mul.c Makefile ~/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/
-cp -f $REPO/software/gemmini-rocc-tests/include ~/chipyard/generators/gemmini/software/gemmini-rocc-tests/include/
+cp -f $REPO/software/gemmini-rocc-tests/bareMetalC/complex_mul.c ~/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/
+cp -f $REPO/software/gemmini-rocc-tests/bareMetalC/Makefile ~/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/
+rm -rf ~/chipyard/generators/gemmini/software/gemmini-rocc-tests/include/
+cp -f $REPO/software/gemmini-rocc-tests/include/ ~/chipyard/generators/gemmini/software/gemmini-rocc-tests/
 
 # If you want to take a look of what differents, you can open following file and Ctrl+F James add:
     |-> bareMetalC/complex_mul.c
