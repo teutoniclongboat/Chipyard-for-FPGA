@@ -77,7 +77,8 @@ Following image is simulators functionals and features.
 **Building Hardware and Cycle-Accurate Simulator**, this step would generate the verilog code and corresponding simulator source (Verilator).
 ```
 cd ~/chipyard/generators/gemmini/
-./scripts/build-verilator --debug # --debug would generate the .vcs file at /waveforms
+./scripts/build-verilator --debug 
+# --debug would generate the .vcs file at /waveforms
 
 # Build a directory /generated-src/, you'll able to find Verilog description of Customized SoC.
 # Include these files: *top.v, Sim*.v ......and so on.
