@@ -42,8 +42,7 @@ git submodule update --init --recursive
 
 SPIKE_HASH=$(cat SPIKE.hash)
 
-cd -
-cd toolchains/esp-tools/riscv-isa-sim/build
+cd ../../toolchains/esp-tools/riscv-isa-sim/build
 git fetch && git checkout $SPIKE_HASH
 make && make install
 
@@ -81,7 +80,7 @@ Following image is simulators functionals and features.
 **Building Hardware and Cycle-Accurate Simulator**, this step would generate the verilog code and corresponding simulator source (Verilator).
 ```
 cd ~/chipyard/generators/gemmini/
-./scripts/build-verilator --debug 
+./scripts/build-verilator.sh --debug 
 # --debug would generate the .vcs file at /waveforms
 
 # Build a directory /generated-src/, you'll able to find Verilog description of Customized SoC.
