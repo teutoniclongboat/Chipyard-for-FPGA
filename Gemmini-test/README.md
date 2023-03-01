@@ -6,7 +6,7 @@ Gemmini is a side project of chipyard, and it working mechanism is load the NN m
 3. Project: Complex multiplication
 4. Project: Running onnx inference model
 
-## Note
+## Complementary
 * linux version
 * Chipyard dependency
 
