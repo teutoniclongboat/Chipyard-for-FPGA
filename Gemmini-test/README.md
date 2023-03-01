@@ -54,7 +54,7 @@ see issue: https://github.com/ucb-bar/gemmini/issues/239
 **Setting up gemmini configuration files and other subdirections**, initialized all Gemmini materials.
 ```
 cd ~/chipyard/generators/gemmini
-./scripts/setup-path.sh
+./scripts/setup-paths.sh
 ```
 
 **Building software of compile programs**, including large DNN models like ResNet50, and small matrix-multiplication tests.
