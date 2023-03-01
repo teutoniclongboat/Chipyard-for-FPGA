@@ -13,7 +13,7 @@ Gemmini is a side project of chipyard, and it working mechanism is load the NN m
 
 ## 1. Chipyard & esp-tools installation
 First, clone the repository from `ucb-bar/chipyard`
-and build esp-tools(This toolchain is for Hwacha and Gemmini to use).
+and build conda environment, then build esp-tools(This toolchain is for Hwacha and Gemmini to use).
 ```
 git clone https://github.com/ucb-bar/chipyard.git
 cd chipyard
