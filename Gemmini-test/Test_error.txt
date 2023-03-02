@@ -1,0 +1,10 @@
+
+Building Functional Simulators:
+  change "cd..." line
+
+Running Basic Simulators:
+  change "cd..." line
+  ./scripts/run-verilator.sh template:
+    ./scripts/run-verilator.sh: line 91: ./simulator-chipyard-CustomGemminiSoCConfig: No such file or directory
+  ./scripts/run-verilator.sh --pk template
+    ./scripts/run-verilator.sh: line 91: ./simulator-chipyard-CustomGemminiSoCConfig: No such file or directory
